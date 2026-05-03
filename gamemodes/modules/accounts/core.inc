@@ -12,6 +12,8 @@ enum PlayerDataEnum
     pName[MAX_PLAYER_NAME],
     pLevel,
     pMoney,
+    pSkin,
+    pJob,
     Float:pPosX,
     Float:pPosY,
     Float:pPosZ,
@@ -185,6 +187,8 @@ public OnPlayerFound(playerid)
     cache_get_value_name(0, "name", playerData[playerid][pName], MAX_PLAYER_NAME);
     cache_get_value_name_int(0, "level", playerData[playerid][pLevel]);
     cache_get_value_name_int(0, "money", playerData[playerid][pMoney]);
+    cache_get_value_name_int(0, "skin", playerData[playerid][pSkin]);
+    cache_get_value_name_int(0, "job", playerData[playerid][pJob]);
     cache_get_value_name_float(0, "pos_x", playerData[playerid][pPosX]);
     cache_get_value_name_float(0, "pos_y", playerData[playerid][pPosY]);
     cache_get_value_name_float(0, "pos_z", playerData[playerid][pPosZ]);
@@ -193,6 +197,7 @@ public OnPlayerFound(playerid)
 
     SetPlayerScore(playerid, playerData[playerid][pLevel]);
     GivePlayerMoney(playerid, playerData[playerid][pMoney]);
+    SetPlayerSkin(playerid, playerData[playerid][pSkin]);
     SetPlayerPos(playerid, playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ]);
     SetPlayerInterior(playerid, playerData[playerid][pInterior]);
     
