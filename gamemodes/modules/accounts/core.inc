@@ -37,6 +37,25 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
         SendClientMessage(playerid, COLOR_WARNING, "[ORPG] Você foi kickado pois escolheu não prosseguir. Sinta-se a vontade para tentar novamente!");
         Kick(playerid);
     }
+
+    if(dialogid == DIALOG_REGISTER) 
+    {
+        if(strlen(inputtext) < 6)
+        {
+            return ShowPlayerDialog(
+                playerid,
+                DIALOG_REGISTER,
+                DIALOG_STYLE_PASSWORD,
+                "Registro",
+                "A sua senha precisa ter pelo menos 6 caracteres.",
+                "Registrar",
+                "Cancelar"
+            );
+        }
+        return 1;
+    }
+
+
     return 0;
 }
 
