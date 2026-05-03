@@ -1,5 +1,6 @@
 #include <open.mp>
 #include <a_mysql>
+#include <samp_bcrypt>
 
 #include "modules/database"
 #include "modules/colors"
