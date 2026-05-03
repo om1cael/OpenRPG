@@ -197,11 +197,10 @@ public OnPlayerFound(playerid)
 
     SetPlayerScore(playerid, playerData[playerid][pLevel]);
     GivePlayerMoney(playerid, playerData[playerid][pMoney]);
-    SetPlayerSkin(playerid, playerData[playerid][pSkin]);
     SetPlayerPos(playerid, playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ]);
     SetPlayerInterior(playerid, playerData[playerid][pInterior]);
     
-    SetSpawnInfo(playerid, 0, 0, playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ], 90.0);
+    SetSpawnInfo(playerid, 0, playerData[playerid][pSkin], playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ], 90.0);
     SpawnPlayer(playerid);
     return 1;
 }
