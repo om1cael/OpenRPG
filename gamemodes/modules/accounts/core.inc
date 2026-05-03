@@ -11,6 +11,10 @@ enum PlayerDataEnum
     pName[MAX_PLAYER_NAME],
     pPassword[72],
     pLevel,
+    pMoney,
+    pPosX,
+    pPosY,
+    pPosZ
 }
 
 new PlayerData[MAX_PLAYERS][PlayerDataEnum];
