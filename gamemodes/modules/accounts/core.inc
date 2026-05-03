@@ -9,7 +9,7 @@ enum
 enum PlayerDataEnum
 {
     pName[MAX_PLAYER_NAME],
-    pPassword[16],
+    pPassword[72],
     pLevel,
 }
 
