@@ -1,4 +1,5 @@
 #include <open.mp>
+#include <a_mysql>
 
 #include "modules/database"
 #include "modules/colors"

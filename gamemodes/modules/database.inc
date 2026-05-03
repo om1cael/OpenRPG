@@ -1,16 +1,19 @@
 #include <YSI_Coding/y_hooks>
 
-new DB:database;
+#define MYSQL_IP "127.0.0.1"
+#define MYSQL_USER "root"
+#define MYSQL_PASS "passwordhere"
+#define MYSQL_DB "openrpg"
+
+new MySQL:database;
 
 hook OnGameModeInit()
 {
-    database = DB_Open("openrpg.db");
+    database = mysql_connect(MYSQL_IP, MYSQL_USER, MYSQL_PASS, MYSQL_DB);
 
     if(database)
     {
         print("Database connection was successful.");
-
-        DB_ExecuteQuery(database, "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(24) UNIQUE, password VARCHAR(72), level INTEGER)");
     }
     else
     {
@@ -23,9 +26,6 @@ hook OnGameModeInit()
 
 hook OnGameModeExit()
 {
-    if(DB_Close(database))
-    {
-        database = DB:0;
-    }
+    mysql_close(database);
     return 1;
 }
