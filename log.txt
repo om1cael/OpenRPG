@@ -1,0 +1,2040 @@
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:11:09-0300] [Info] 
+----------------------------------
+[2026-05-03T11:11:09-0300] [Info]  gungame is a gun game mode released as
+[2026-05-03T11:11:09-0300] [Info]  an example mode for open.mp
+[2026-05-03T11:11:09-0300] [Info]  
+[2026-05-03T11:11:09-0300] [Info]  Author: NotUnlikeTheWaves (github)
+[2026-05-03T11:11:09-0300] [Info] ----------------------------------
+
+[2026-05-03T11:11:11-0300] [Info] Legacy Network started on port 7777
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:17:49-0300] [Info]  
+[2026-05-03T11:17:49-0300] [Info]   -------------------------------
+[2026-05-03T11:17:49-0300] [Info]   |  My first open.mp gamemode! |
+[2026-05-03T11:17:49-0300] [Info]   -------------------------------
+[2026-05-03T11:17:49-0300] [Info]  
+[2026-05-03T11:17:50-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:17:51-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:17:51-0300] [Warning] 	 Status: 406
+[2026-05-03T11:17:51-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:56689-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:17:51-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:18:20-0300] [Info] [connection] incoming connection: 127.0.0.1:40468 id: 0
+[2026-05-03T11:18:20-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:21:16-0300] [Info] [part] micael has left the server (0:1)
+[2026-05-03T11:22:09-0300] [Info] [connection] incoming connection: 127.0.0.1:37690 id: 0
+[2026-05-03T11:22:09-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:23:27-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:25:13-0300] [Info]  
+[2026-05-03T11:25:13-0300] [Info]   -------------------------------
+[2026-05-03T11:25:13-0300] [Info]   |  My first open.mp gamemode! |
+[2026-05-03T11:25:13-0300] [Info]   -------------------------------
+[2026-05-03T11:25:13-0300] [Info]  
+[2026-05-03T11:25:14-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:25:15-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:25:15-0300] [Warning] 	 Status: 406
+[2026-05-03T11:25:15-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:48162-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:25:15-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:25:32-0300] [Info] [connection] incoming connection: 127.0.0.1:35561 id: 0
+[2026-05-03T11:25:32-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:25:39-0300] [Info] Hello World!
+[2026-05-03T11:25:40-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:25:41-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:25:41-0300] [Warning] 	 Status: 406
+[2026-05-03T11:25:41-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:53979-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:25:41-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:26:07-0300] [Info] [connection] incoming connection: 127.0.0.1:54115 id: 0
+[2026-05-03T11:26:07-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:26:37-0300] [Info] Hello World!
+[2026-05-03T11:26:38-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:26:39-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:26:39-0300] [Warning] 	 Status: 406
+[2026-05-03T11:26:39-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:47339-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:26:39-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:27:20-0300] [Info] [connection] incoming connection: 127.0.0.1:60547 id: 0
+[2026-05-03T11:27:20-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:27:32-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:28:18-0300] [Info] Hello World!
+[2026-05-03T11:28:19-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:28:20-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:28:20-0300] [Warning] 	 Status: 406
+[2026-05-03T11:28:20-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:34799-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:28:20-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:28:37-0300] [Info] [connection] incoming connection: 127.0.0.1:41266 id: 0
+[2026-05-03T11:28:37-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:30:11-0300] [Info] [part] micael has left the server (0:1)
+[2026-05-03T11:31:41-0300] [Info] [connection] incoming connection: 127.0.0.1:51999 id: 0
+[2026-05-03T11:31:41-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:31:53-0300] [Info] [part] micael has left the server (0:1)
+[2026-05-03T11:32:39-0300] [Info] [connection] incoming connection: 127.0.0.1:57464 id: 0
+[2026-05-03T11:32:39-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:32:52-0300] [Info] [part] micael has left the server (0:1)
+[2026-05-03T11:35:05-0300] [Info] [connection] incoming connection: 127.0.0.1:37260 id: 0
+[2026-05-03T11:35:05-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:35:20-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:35:32-0300] [Info] Hello World!
+[2026-05-03T11:35:33-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:35:34-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:35:34-0300] [Warning] 	 Status: 406
+[2026-05-03T11:35:34-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:60303-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:35:34-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:35:50-0300] [Info] [connection] incoming connection: 127.0.0.1:49880 id: 0
+[2026-05-03T11:35:50-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:36:00-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:36:14-0300] [Info] Hello World!
+[2026-05-03T11:36:15-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:36:16-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:36:16-0300] [Warning] 	 Status: 406
+[2026-05-03T11:36:16-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:36049-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:36:16-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:36:33-0300] [Info] [connection] incoming connection: 127.0.0.1:46763 id: 0
+[2026-05-03T11:36:33-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:36:39-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:36:53-0300] [Info] Hello World!
+[2026-05-03T11:36:55-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:36:56-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:36:56-0300] [Warning] 	 Status: 406
+[2026-05-03T11:36:56-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:51262-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:36:56-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:37:11-0300] [Info] [connection] incoming connection: 127.0.0.1:34492 id: 0
+[2026-05-03T11:37:11-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:37:18-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:37:37-0300] [Info] Hello World!
+[2026-05-03T11:37:38-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:37:39-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:37:39-0300] [Warning] 	 Status: 406
+[2026-05-03T11:37:39-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:56580-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:37:39-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:37:56-0300] [Info] [connection] incoming connection: 127.0.0.1:38376 id: 0
+[2026-05-03T11:37:56-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:38:12-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:38:55-0300] [Info] Hello World!
+[2026-05-03T11:38:57-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:38:57-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:38:57-0300] [Warning] 	 Status: 406
+[2026-05-03T11:38:57-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:43192-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:38:57-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:39:13-0300] [Info] [connection] incoming connection: 127.0.0.1:41497 id: 0
+[2026-05-03T11:39:13-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:41:04-0300] [Info] Hello World!
+[2026-05-03T11:41:05-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:41:07-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:41:07-0300] [Warning] 	 Status: 406
+[2026-05-03T11:41:07-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:41781-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:41:07-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:41:27-0300] [Info] [connection] incoming connection: 127.0.0.1:40779 id: 0
+[2026-05-03T11:41:27-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:41:34-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:42:07-0300] [Info] Hello World!
+[2026-05-03T11:42:08-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:42:09-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:42:09-0300] [Warning] 	 Status: 406
+[2026-05-03T11:42:09-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:58802-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:42:09-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:42:26-0300] [Info] [connection] incoming connection: 127.0.0.1:43030 id: 0
+[2026-05-03T11:42:26-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:42:34-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:42:54-0300] [Info] Hello World!
+[2026-05-03T11:42:56-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:42:56-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:42:56-0300] [Warning] 	 Status: 406
+[2026-05-03T11:42:56-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:49568-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:42:56-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:43:12-0300] [Info] [connection] incoming connection: 127.0.0.1:55832 id: 0
+[2026-05-03T11:43:12-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:43:28-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:43:56-0300] [Info] Hello World!
+[2026-05-03T11:43:57-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:43:58-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:43:58-0300] [Warning] 	 Status: 406
+[2026-05-03T11:43:58-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:47264-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:43:58-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:44:16-0300] [Info] [connection] incoming connection: 127.0.0.1:41980 id: 0
+[2026-05-03T11:44:16-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:45:31-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:49:38-0300] [Info] Hello World!
+[2026-05-03T11:49:39-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:49:40-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:49:40-0300] [Warning] 	 Status: 406
+[2026-05-03T11:49:40-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:57269-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:49:40-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:49:56-0300] [Info] [connection] incoming connection: 127.0.0.1:47484 id: 0
+[2026-05-03T11:49:56-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:50:22-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T11:51:16-0300] [Info] Hello World!
+[2026-05-03T11:51:17-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T11:51:18-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T11:51:18-0300] [Warning] 	 Status: 406
+[2026-05-03T11:51:18-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:54584-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T11:51:18-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T11:51:35-0300] [Info] [connection] incoming connection: 127.0.0.1:53601 id: 0
+[2026-05-03T11:51:35-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T11:53:02-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:10:46-0300] [Info]  
+[2026-05-03T12:10:46-0300] [Info]  
+[2026-05-03T12:10:46-0300] [Info]          ==============================================================
+[2026-05-03T12:10:46-0300] [Info]          |                                                            |
+[2026-05-03T12:10:46-0300] [Info]          |                                                            |
+[2026-05-03T12:10:46-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:10:46-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:10:46-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:10:46-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:10:46-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:10:46-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:10:46-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:10:46-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:10:46-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:10:46-0300] [Info]          |                                                            |
+[2026-05-03T12:10:46-0300] [Info]          |                                                            |
+[2026-05-03T12:10:46-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:10:46-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:10:46-0300] [Info]          |                                                            |
+[2026-05-03T12:10:46-0300] [Info]          |                                                            |
+[2026-05-03T12:10:46-0300] [Info]          ==============================================================
+[2026-05-03T12:10:46-0300] [Info]  
+[2026-05-03T12:10:46-0300] [Info]  
+[2026-05-03T12:10:46-0300] [Info]  ========================================== 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:10:46-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:10:46-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:10:46-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:10:46-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  |             Done in 8ms!               | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  ========================================== 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:10:46-0300] [Info]  | Started:     03 May 2026 - 12:10:46    | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:10:46-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:10:46-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:10:46-0300] [Info]  | Built:       03 May 2026 - 12:10:43    | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:10:46-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:10:46-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:10:46-0300] [Info]  |                                        | 
+[2026-05-03T12:10:46-0300] [Info]  ========================================== 
+[2026-05-03T12:10:46-0300] [Info]  
+[2026-05-03T12:10:46-0300] [Info]  
+[2026-05-03T12:10:46-0300] [Info] Hello World!
+[2026-05-03T12:10:47-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:10:48-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:10:48-0300] [Warning] 	 Status: 406
+[2026-05-03T12:10:48-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:56092-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:10:48-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:11:12-0300] [Info] [connection] incoming connection: 127.0.0.1:33141 id: 0
+[2026-05-03T12:11:12-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:11:38-0300] [Info] [part] micael has left the server (0:1)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:13:27-0300] [Info]  
+[2026-05-03T12:13:27-0300] [Info]  
+[2026-05-03T12:13:27-0300] [Info]          ==============================================================
+[2026-05-03T12:13:27-0300] [Info]          |                                                            |
+[2026-05-03T12:13:27-0300] [Info]          |                                                            |
+[2026-05-03T12:13:27-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:13:27-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:13:27-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:13:27-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:13:27-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:13:27-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:13:27-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:13:27-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:13:27-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:13:27-0300] [Info]          |                                                            |
+[2026-05-03T12:13:27-0300] [Info]          |                                                            |
+[2026-05-03T12:13:27-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:13:27-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:13:27-0300] [Info]          |                                                            |
+[2026-05-03T12:13:27-0300] [Info]          |                                                            |
+[2026-05-03T12:13:27-0300] [Info]          ==============================================================
+[2026-05-03T12:13:27-0300] [Info]  
+[2026-05-03T12:13:27-0300] [Info]  
+[2026-05-03T12:13:27-0300] [Info]  ========================================== 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:13:27-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:13:27-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:13:27-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:13:27-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  |             Done in 10ms!              | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  ========================================== 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:13:27-0300] [Info]  | Started:     03 May 2026 - 12:13:27    | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:13:27-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:13:27-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:13:27-0300] [Info]  | Built:       03 May 2026 - 12:13:19    | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:13:27-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:13:27-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:13:27-0300] [Info]  |                                        | 
+[2026-05-03T12:13:27-0300] [Info]  ========================================== 
+[2026-05-03T12:13:27-0300] [Info]  
+[2026-05-03T12:13:27-0300] [Info]  
+[2026-05-03T12:13:27-0300] [Info] Hello World!
+[2026-05-03T12:13:28-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:13:29-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:13:29-0300] [Warning] 	 Status: 406
+[2026-05-03T12:13:29-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:46944-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:13:29-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:13:39-0300] [Info] [connection] incoming connection: 127.0.0.1:52948 id: 0
+[2026-05-03T12:13:39-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:13:41-0300] [Info] [part] micael has left the server (0:2)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:15:03-0300] [Info]  
+[2026-05-03T12:15:03-0300] [Info]  
+[2026-05-03T12:15:03-0300] [Info]          ==============================================================
+[2026-05-03T12:15:03-0300] [Info]          |                                                            |
+[2026-05-03T12:15:03-0300] [Info]          |                                                            |
+[2026-05-03T12:15:03-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:15:03-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:15:03-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:15:03-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:15:03-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:15:03-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:15:03-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:15:03-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:15:03-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:15:03-0300] [Info]          |                                                            |
+[2026-05-03T12:15:03-0300] [Info]          |                                                            |
+[2026-05-03T12:15:03-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:15:03-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:15:03-0300] [Info]          |                                                            |
+[2026-05-03T12:15:03-0300] [Info]          |                                                            |
+[2026-05-03T12:15:03-0300] [Info]          ==============================================================
+[2026-05-03T12:15:03-0300] [Info]  
+[2026-05-03T12:15:03-0300] [Info]  
+[2026-05-03T12:15:03-0300] [Info]  ========================================== 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:15:03-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:15:03-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:15:03-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:15:03-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  |             Done in 10ms!              | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  ========================================== 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:15:03-0300] [Info]  | Started:     03 May 2026 - 12:15:03    | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:15:03-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:15:03-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:15:03-0300] [Info]  | Built:       03 May 2026 - 12:15:00    | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:15:03-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:15:03-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:15:03-0300] [Info]  |                                        | 
+[2026-05-03T12:15:03-0300] [Info]  ========================================== 
+[2026-05-03T12:15:03-0300] [Info]  
+[2026-05-03T12:15:03-0300] [Info]  
+[2026-05-03T12:15:03-0300] [Info] Hello World!
+[2026-05-03T12:15:05-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:15:05-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:15:05-0300] [Warning] 	 Status: 406
+[2026-05-03T12:15:05-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:60967-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:15:05-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:15:22-0300] [Info] [connection] incoming connection: 127.0.0.1:50610 id: 0
+[2026-05-03T12:15:22-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:15:23-0300] [Info] [part] micael has left the server (0:2)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:17:57-0300] [Info]  
+[2026-05-03T12:17:57-0300] [Info]  
+[2026-05-03T12:17:57-0300] [Info]          ==============================================================
+[2026-05-03T12:17:57-0300] [Info]          |                                                            |
+[2026-05-03T12:17:57-0300] [Info]          |                                                            |
+[2026-05-03T12:17:57-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:17:57-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:17:57-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:17:57-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:17:57-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:17:57-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:17:57-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:17:57-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:17:57-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:17:57-0300] [Info]          |                                                            |
+[2026-05-03T12:17:57-0300] [Info]          |                                                            |
+[2026-05-03T12:17:57-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:17:57-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:17:57-0300] [Info]          |                                                            |
+[2026-05-03T12:17:57-0300] [Info]          |                                                            |
+[2026-05-03T12:17:57-0300] [Info]          ==============================================================
+[2026-05-03T12:17:57-0300] [Info]  
+[2026-05-03T12:17:57-0300] [Info]  
+[2026-05-03T12:17:57-0300] [Info]  ========================================== 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:17:57-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:17:57-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:17:57-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:17:57-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  |             Done in 10ms!              | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  ========================================== 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:17:57-0300] [Info]  | Started:     03 May 2026 - 12:17:57    | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:17:57-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:17:57-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:17:57-0300] [Info]  | Built:       03 May 2026 - 12:17:50    | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:17:57-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:17:57-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:17:57-0300] [Info]  |                                        | 
+[2026-05-03T12:17:57-0300] [Info]  ========================================== 
+[2026-05-03T12:17:57-0300] [Info]  
+[2026-05-03T12:17:57-0300] [Info]  
+[2026-05-03T12:17:57-0300] [Info] Hello World!
+[2026-05-03T12:17:59-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:17:59-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:17:59-0300] [Warning] 	 Status: 406
+[2026-05-03T12:17:59-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:48611-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:17:59-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:21:11-0300] [Info]  
+[2026-05-03T12:21:11-0300] [Info]  
+[2026-05-03T12:21:11-0300] [Info]          ==============================================================
+[2026-05-03T12:21:11-0300] [Info]          |                                                            |
+[2026-05-03T12:21:11-0300] [Info]          |                                                            |
+[2026-05-03T12:21:11-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:21:11-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:21:11-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:21:11-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:21:11-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:21:11-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:21:11-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:21:11-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:21:11-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:21:11-0300] [Info]          |                                                            |
+[2026-05-03T12:21:11-0300] [Info]          |                                                            |
+[2026-05-03T12:21:11-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:21:11-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:21:11-0300] [Info]          |                                                            |
+[2026-05-03T12:21:11-0300] [Info]          |                                                            |
+[2026-05-03T12:21:11-0300] [Info]          ==============================================================
+[2026-05-03T12:21:11-0300] [Info]  
+[2026-05-03T12:21:11-0300] [Info]  
+[2026-05-03T12:21:11-0300] [Info]  ========================================== 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:21:11-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:21:11-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:21:11-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:21:11-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  |             Done in 10ms!              | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  ========================================== 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:21:11-0300] [Info]  | Started:     03 May 2026 - 12:21:11    | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:21:11-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:21:11-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:21:11-0300] [Info]  | Built:       03 May 2026 - 12:21:07    | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:21:11-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:21:11-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:21:11-0300] [Info]  |                                        | 
+[2026-05-03T12:21:11-0300] [Info]  ========================================== 
+[2026-05-03T12:21:11-0300] [Info]  
+[2026-05-03T12:21:11-0300] [Info]  
+[2026-05-03T12:21:11-0300] [Info] Hello World!
+[2026-05-03T12:21:12-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:21:13-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:21:13-0300] [Warning] 	 Status: 406
+[2026-05-03T12:21:13-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:53911-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:21:13-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:21:29-0300] [Info] [connection] incoming connection: 127.0.0.1:49980 id: 0
+[2026-05-03T12:21:29-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:21:31-0300] [Info] [part] micael has left the server (0:2)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:22:37-0300] [Info]  
+[2026-05-03T12:22:37-0300] [Info]  
+[2026-05-03T12:22:37-0300] [Info]          ==============================================================
+[2026-05-03T12:22:37-0300] [Info]          |                                                            |
+[2026-05-03T12:22:37-0300] [Info]          |                                                            |
+[2026-05-03T12:22:37-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:22:37-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:22:37-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:22:37-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:22:37-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:22:37-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:22:37-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:22:37-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:22:37-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:22:37-0300] [Info]          |                                                            |
+[2026-05-03T12:22:37-0300] [Info]          |                                                            |
+[2026-05-03T12:22:37-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:22:37-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:22:37-0300] [Info]          |                                                            |
+[2026-05-03T12:22:37-0300] [Info]          |                                                            |
+[2026-05-03T12:22:37-0300] [Info]          ==============================================================
+[2026-05-03T12:22:37-0300] [Info]  
+[2026-05-03T12:22:37-0300] [Info]  
+[2026-05-03T12:22:37-0300] [Info]  ========================================== 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:22:37-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:22:37-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:22:37-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:22:37-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  |             Done in 10ms!              | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  ========================================== 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:22:37-0300] [Info]  | Started:     03 May 2026 - 12:22:37    | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:22:37-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:22:37-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:22:37-0300] [Info]  | Built:       03 May 2026 - 12:22:35    | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:22:37-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:22:37-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:22:37-0300] [Info]  |                                        | 
+[2026-05-03T12:22:37-0300] [Info]  ========================================== 
+[2026-05-03T12:22:37-0300] [Info]  
+[2026-05-03T12:22:37-0300] [Info]  
+[2026-05-03T12:22:37-0300] [Info] Hello World!
+[2026-05-03T12:22:39-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:22:40-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:22:40-0300] [Warning] 	 Status: 406
+[2026-05-03T12:22:40-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:50570-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:22:40-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:22:56-0300] [Info] [connection] incoming connection: 127.0.0.1:56780 id: 0
+[2026-05-03T12:22:56-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:22:57-0300] [Info] [part] micael has left the server (0:2)
+[2026-05-03T12:24:01-0300] [Info] [connection] incoming connection: 127.0.0.1:50706 id: 0
+[2026-05-03T12:24:01-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:24:02-0300] [Info] [part] micael has left the server (0:2)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:24:12-0300] [Info]  
+[2026-05-03T12:24:12-0300] [Info]  
+[2026-05-03T12:24:12-0300] [Info]          ==============================================================
+[2026-05-03T12:24:12-0300] [Info]          |                                                            |
+[2026-05-03T12:24:12-0300] [Info]          |                                                            |
+[2026-05-03T12:24:12-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:24:12-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:24:12-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:24:12-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:24:12-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:24:12-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:24:12-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:24:12-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:24:12-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:24:12-0300] [Info]          |                                                            |
+[2026-05-03T12:24:12-0300] [Info]          |                                                            |
+[2026-05-03T12:24:12-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:24:12-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:24:12-0300] [Info]          |                                                            |
+[2026-05-03T12:24:12-0300] [Info]          |                                                            |
+[2026-05-03T12:24:12-0300] [Info]          ==============================================================
+[2026-05-03T12:24:12-0300] [Info]  
+[2026-05-03T12:24:12-0300] [Info]  
+[2026-05-03T12:24:12-0300] [Info]  ========================================== 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:24:12-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:24:12-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:24:12-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:24:12-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  |             Done in 10ms!              | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  ========================================== 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:24:12-0300] [Info]  | Started:     03 May 2026 - 12:24:12    | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:24:12-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:24:12-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:24:12-0300] [Info]  | Built:       03 May 2026 - 12:24:09    | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:24:12-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:24:12-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:24:12-0300] [Info]  |                                        | 
+[2026-05-03T12:24:12-0300] [Info]  ========================================== 
+[2026-05-03T12:24:12-0300] [Info]  
+[2026-05-03T12:24:12-0300] [Info]  
+[2026-05-03T12:24:12-0300] [Info] Hello World!
+[2026-05-03T12:24:13-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:24:14-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:24:14-0300] [Warning] 	 Status: 406
+[2026-05-03T12:24:14-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:38760-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:24:14-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:24:30-0300] [Info] [connection] incoming connection: 127.0.0.1:60679 id: 0
+[2026-05-03T12:24:30-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:24:32-0300] [Info] [part] micael has left the server (0:2)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:25:16-0300] [Info]  
+[2026-05-03T12:25:16-0300] [Info]  
+[2026-05-03T12:25:16-0300] [Info]          ==============================================================
+[2026-05-03T12:25:16-0300] [Info]          |                                                            |
+[2026-05-03T12:25:16-0300] [Info]          |                                                            |
+[2026-05-03T12:25:16-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:25:16-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:25:16-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:25:16-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:25:16-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:25:16-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:25:16-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:25:16-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:25:16-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:25:16-0300] [Info]          |                                                            |
+[2026-05-03T12:25:16-0300] [Info]          |                                                            |
+[2026-05-03T12:25:16-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:25:16-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:25:16-0300] [Info]          |                                                            |
+[2026-05-03T12:25:16-0300] [Info]          |                                                            |
+[2026-05-03T12:25:16-0300] [Info]          ==============================================================
+[2026-05-03T12:25:16-0300] [Info]  
+[2026-05-03T12:25:16-0300] [Info]  
+[2026-05-03T12:25:16-0300] [Info]  ========================================== 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:25:16-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:25:16-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:25:16-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:25:16-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  |             Done in 9ms!               | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  ========================================== 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:25:16-0300] [Info]  | Started:     03 May 2026 - 12:25:16    | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:25:16-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:25:16-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:25:16-0300] [Info]  | Built:       03 May 2026 - 12:25:13    | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:25:16-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:25:16-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:25:16-0300] [Info]  |                                        | 
+[2026-05-03T12:25:16-0300] [Info]  ========================================== 
+[2026-05-03T12:25:16-0300] [Info]  
+[2026-05-03T12:25:16-0300] [Info]  
+[2026-05-03T12:25:16-0300] [Info] Hello World!
+[2026-05-03T12:25:17-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:25:18-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:25:18-0300] [Warning] 	 Status: 406
+[2026-05-03T12:25:18-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:58916-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:25:18-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:25:34-0300] [Info] [connection] incoming connection: 127.0.0.1:37331 id: 0
+[2026-05-03T12:25:34-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:25:36-0300] [Info] [part] micael has left the server (0:2)
+Starting open.mp server (1.5.8.3079) from commit c6759bd8d265171ae3d86598895a23d5a8d92a3b
+Running static OpenSSL build - plugins that use OpenSSL might crash (discord-connector, pawn-requests). It's recommended to use the dynssl build.
+Loading component $CAPI.so
+	Successfully loaded component C-API (1.5.8.3079) with UID 10467dd8d4c56fc6
+Loading component Actors.so
+	Successfully loaded component Actors (1.5.8.3079) with UID c81ca021eae2ad5c
+Loading component Checkpoints.so
+	Successfully loaded component Checkpoints (1.5.8.3079) with UID 44a937350d611dde
+Loading component Classes.so
+	Successfully loaded component Classes (1.5.8.3079) with UID 8cfb3183976da208
+Loading component Console.so
+	Successfully loaded component Console (1.5.8.3079) with UID bfa24e49d0c95ee4
+Loading component CustomModels.so
+	Successfully loaded component CustomModels (1.5.8.3079) with UID 15e3cb1e7c77ffff
+Loading component Databases.so
+	Successfully loaded component Databases (1.5.8.3079) with UID 80092e7eb5821a96
+Loading component Dialogs.so
+	Successfully loaded component Dialogs (1.5.8.3079) with UID 44a111350d611dde
+Loading component GangZones.so
+	Successfully loaded component GangZones (1.5.8.3079) with UID b3351d11ee8d8056
+Loading component LegacyConfig.so
+	Successfully loaded component LegacyConfig (1.5.8.3079) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.so
+	Successfully loaded component RakNetLegacyNetwork (1.5.8.3079) with UID ea9799fd79cf8442
+Loading component Menus.so
+	Successfully loaded component Menus (1.5.8.3079) with UID 621e219eb97ee0b2
+Loading component NPCs.so
+	Successfully loaded component NPCs (1.5.8.3079) with UID 3d0e59e87f4e90bc
+Loading component Objects.so
+	Successfully loaded component Objects (1.5.8.3079) with UID 59f8415f72da6160
+Loading component Pawn.so
+	Successfully loaded component Pawn (1.5.8.3079) with UID 78906cd9f19c36a6
+Loading component Pickups.so
+	Successfully loaded component Pickups (1.5.8.3079) with UID cf304faa363dd971
+Loading component Recordings.so
+	Successfully loaded component Recordings (1.5.8.3079) with UID 871144d399f5f613
+Loading component TextDraws.so
+	Successfully loaded component TextDraws (1.5.8.3079) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.so
+	Successfully loaded component TextLabels (1.5.8.3079) with UID a0c57ea80a009742
+Loading component Timers.so
+	Successfully loaded component Timers (1.5.8.3079) with UID 2ad8124c5ea257a3
+Loading component Variables.so
+	Successfully loaded component Variables (1.5.8.3079) with UID 75e121848bc01fa2
+Loading component Vehicles.so
+	Successfully loaded component Vehicles (1.5.8.3079) with UID 3f1f62ee9e22ab19
+Loaded 22 component(s) from /home/user/Downloads/RPGServer/components
+[2026-05-03T12:26:06-0300] [Info]  
+[2026-05-03T12:26:06-0300] [Info]  
+[2026-05-03T12:26:06-0300] [Info]          ==============================================================
+[2026-05-03T12:26:06-0300] [Info]          |                                                            |
+[2026-05-03T12:26:06-0300] [Info]          |                                                            |
+[2026-05-03T12:26:06-0300] [Info]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[2026-05-03T12:26:06-0300] [Info]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[2026-05-03T12:26:06-0300] [Info]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[2026-05-03T12:26:06-0300] [Info]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[2026-05-03T12:26:06-0300] [Info]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |           Y:::::Y                    S:::::S   I::::I      |
+[2026-05-03T12:26:06-0300] [Info]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[2026-05-03T12:26:06-0300] [Info]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[2026-05-03T12:26:06-0300] [Info]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[2026-05-03T12:26:06-0300] [Info]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[2026-05-03T12:26:06-0300] [Info]          |                                                            |
+[2026-05-03T12:26:06-0300] [Info]          |                                                            |
+[2026-05-03T12:26:06-0300] [Info]          |                      (c) 2021 MPL v1.1                     |
+[2026-05-03T12:26:06-0300] [Info]          |            Alex "Y_Less" Cole and contributors.            |
+[2026-05-03T12:26:06-0300] [Info]          |                                                            |
+[2026-05-03T12:26:06-0300] [Info]          |                                                            |
+[2026-05-03T12:26:06-0300] [Info]          ==============================================================
+[2026-05-03T12:26:06-0300] [Info]  
+[2026-05-03T12:26:06-0300] [Info]  
+[2026-05-03T12:26:06-0300] [Info]  ========================================== 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  |   Generating code, this may take a     | 
+[2026-05-03T12:26:06-0300] [Info]  |  little bit of time.  Note that this   | 
+[2026-05-03T12:26:06-0300] [Info]  |  code generation works best with the   | 
+[2026-05-03T12:26:06-0300] [Info]  |     JIT plugin, which you are not      | 
+[2026-05-03T12:26:06-0300] [Info]  |     currently using.  Get it here:     | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  |       https://git.io/jit-plugin        | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  |             Please wait...             | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  |             Done in 8ms!               | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  ========================================== 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  | Server:      open.mp 1.5.8.3079 (L)    | 
+[2026-05-03T12:26:06-0300] [Info]  | Started:     03 May 2026 - 12:26:06    | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  | Compiler:    3.10.11 (Linux)           | 
+[2026-05-03T12:26:06-0300] [Info]  | Includes:    open.mp v037030           | 
+[2026-05-03T12:26:06-0300] [Info]  | Codepage:    <none>                    | 
+[2026-05-03T12:26:06-0300] [Info]  | Built:       03 May 2026 - 12:26:04    | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  | YSI:         v05.10.0006               | 
+[2026-05-03T12:26:06-0300] [Info]  | Master:      -1                        | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  | JIT:         <none>                    | 
+[2026-05-03T12:26:06-0300] [Info]  | Crashdetect: <none>                    | 
+[2026-05-03T12:26:06-0300] [Info]  |                                        | 
+[2026-05-03T12:26:06-0300] [Info]  ========================================== 
+[2026-05-03T12:26:06-0300] [Info]  
+[2026-05-03T12:26:06-0300] [Info]  
+[2026-05-03T12:26:06-0300] [Info] Hello World!
+[2026-05-03T12:26:07-0300] [Info] Legacy Network started on port 7777
+[2026-05-03T12:26:08-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[2026-05-03T12:26:08-0300] [Warning] 	 Status: 406
+[2026-05-03T12:26:08-0300] [Warning] 	 Message: {"error":"failed to query server: failed to read response: read udp 172.19.2.146:50226-\u003e45.234.82.82:7777: read: connection refused"}
+[2026-05-03T12:26:08-0300] [Warning] This won't affect the server's behaviour.
+[2026-05-03T12:26:24-0300] [Info] [connection] incoming connection: 127.0.0.1:46304 id: 0
+[2026-05-03T12:26:24-0300] [Info] [join] micael has joined the server (0:127.0.0.1)
+[2026-05-03T12:26:25-0300] [Info] [part] micael has left the server (0:2)

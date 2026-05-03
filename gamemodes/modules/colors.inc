@@ -1,0 +1,1 @@
+#define COLOR_WARNING 0xff4000AA
