@@ -11,7 +11,7 @@ hook OnGameModeInit()
 {
     database = mysql_connect(MYSQL_IP, MYSQL_USER, MYSQL_PASS, MYSQL_DB);
 
-    if(database)
+    if(mysql_errno(database) == 0)
     {
         print("Database connection was successful.");
     }

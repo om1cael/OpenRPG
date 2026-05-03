@@ -8,6 +8,7 @@ enum
 
 enum PlayerDataEnum
 {
+    pId,
     pName[MAX_PLAYER_NAME],
     pPassword[72],
     pLevel,
@@ -19,15 +20,29 @@ enum PlayerDataEnum
 
 new PlayerData[MAX_PLAYERS][PlayerDataEnum];
 
+forward OnPlayerDataLoaded(playerid);
+
 hook OnPlayerRequestClass(playerid, classid) 
 {
-    new playerName[MAX_PLAYER_NAME + 1];
+    new playerName[MAX_PLAYER_NAME], query[128];
     GetPlayerName(playerid, playerName, sizeof(playerName));
     
-    new DBResult:player_query = 
-        DB_ExecuteQuery(database, "SELECT name FROM users WHERE name = %s", playerName);
+    mysql_format(database, query, sizeof(query), "SELECT name from `users` WHERE `name` = '%e' LIMIT 1", playerName);
+    mysql_tquery(database, query, "OnPlayerDataLoaded", "d", playerid);
+}
 
-    if(DB_GetRowCount(player_query) == 0) 
+hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) 
+{
+    if((dialogid == DIALOG_REGISTER || dialogid == DIALOG_LOGIN) && !response) {
+        SendClientMessage(playerid, COLOR_WARNING, "[ORPG] Você foi kickado pois escolheu não prosseguir. Sinta-se a vontade para tentar novamente!");
+        Kick(playerid);
+    }
+    return 0;
+}
+
+public OnPlayerDataLoaded(playerid)
+{
+    if(cache_num_rows() == 0)
     {
         ShowPlayerDialog(
             playerid,
@@ -38,28 +53,18 @@ hook OnPlayerRequestClass(playerid, classid)
             "Registrar",
             "Cancelar"
         );
-    }
-    else
-    {
-        ShowPlayerDialog(
-            playerid,
-            DIALOG_LOGIN,
-            DIALOG_STYLE_PASSWORD,
-            "Login",
-            "Bem-vindo(a) novamente!\n\nDigite sua senha abaixo.",
-            "Entrar",
-            "Cancelar"
-        );
+        return 1;
     }
 
-    DB_FreeResultSet(player_query);
-}
+    ShowPlayerDialog(
+        playerid,
+        DIALOG_LOGIN,
+        DIALOG_STYLE_PASSWORD,
+        "Login",
+        "Bem-vindo(a) novamente!\n\nDigite sua senha abaixo.",
+        "Entrar",
+        "Cancelar"
+    );
 
-hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) 
-{
-    if((dialogid == DIALOG_REGISTER || dialogid == DIALOG_LOGIN) && !response) {
-        SendClientMessage(playerid, COLOR_WARNING, "[ORPG] Você foi kickado pois escolheu não prosseguir. Sinta-se a vontade para tentar novamente!");
-        Kick(playerid);
-    }
-    return 0;
+    return 1;
 }
