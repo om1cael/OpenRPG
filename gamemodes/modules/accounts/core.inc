@@ -1,9 +1,19 @@
 #include <YSI_Coding/y_hooks>
 
-enum {
+enum 
+{
     DIALOG_REGISTER,
     DIALOG_LOGIN
 }
+
+enum PlayerDataEnum
+{
+    name[MAX_PLAYER_NAME],
+    password[16],
+    level,
+}
+
+new PlayerData[MAX_PLAYERS][PlayerDataEnum];
 
 hook OnPlayerRequestClass(playerid, classid) 
 {

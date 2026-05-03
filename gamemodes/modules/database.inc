@@ -9,6 +9,8 @@ hook OnGameModeInit()
     if(database)
     {
         print("Database connection was successful.");
+
+        DB_ExecuteQuery(database, "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(24) UNIQUE, password VARCHAR(16), level INTEGER)");
     }
     else
     {
