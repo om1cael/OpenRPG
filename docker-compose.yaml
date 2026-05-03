@@ -1,7 +1,10 @@
 services:
   mysql:
-    image: mysql:lts
+    image: mysql:8.0
     restart: always
+    command: 
+      - --default-authentication-plugin=mysql_native_password
+      - --ssl=0
     environment:
       MYSQL_ROOT_PASSWORD: passwordhere
       MYSQL_DATABASE: openrpg
