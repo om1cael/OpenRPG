@@ -9,7 +9,7 @@
 				"instanceLimit": 1,
 			},
 			"args": [
-				"${file}",
+				"${workspaceRoot}/gamemodes/rpg.pwn",
 				"-Dgamemodes",
 				"'-;+'",
 				"'-(+'",
