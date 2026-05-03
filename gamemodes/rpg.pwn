@@ -1,5 +1,6 @@
 #include <open.mp>
 
+#include "modules/database"
 #include "modules/colors"
 
 #include "modules/accounts/core"
