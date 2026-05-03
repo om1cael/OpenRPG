@@ -200,7 +200,7 @@ public OnPlayerFound(playerid)
     SetPlayerPos(playerid, playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ]);
     SetPlayerInterior(playerid, playerData[playerid][pInterior]);
     
-    SetSpawnInfo(playerid, 0, playerData[playerid][pSkin], playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ], 90.0);
+    SetSpawnInfo(playerid, NO_TEAM, playerData[playerid][pSkin], playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ], 90.0);
     SpawnPlayer(playerid);
     return 1;
 }
