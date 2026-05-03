@@ -21,6 +21,8 @@ services:
       MYSQL_ROOT_PASSWORD: passwordhere
     ports:
       - '8080:80'
+    depends_on:
+      - mysql
 
 volumes:
   mysql_data:

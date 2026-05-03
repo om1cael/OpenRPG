@@ -6,5 +6,6 @@ CREATE TABLE IF NOT EXISTS users (
     money INT DEFAULT 500,
     pos_x FLOAT,
     pos_y FLOAT,
-    pos_z FLOAT
+    pos_z FLOAT,
+    p_interior INT DEFAULT 0
 ) ENGINE=InnoDB;

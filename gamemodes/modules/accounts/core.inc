@@ -10,17 +10,21 @@ enum PlayerDataEnum
 {
     pId,
     pName[MAX_PLAYER_NAME],
-    pPassword[72],
     pLevel,
     pMoney,
-    pPosX,
-    pPosY,
-    pPosZ
+    Float:pPosX,
+    Float:pPosY,
+    Float:pPosZ,
+    pInterior,
+    bool:pIsLoggedIn
 }
 
-new PlayerData[MAX_PLAYERS][PlayerDataEnum];
+new playerData[MAX_PLAYERS][PlayerDataEnum];
 
-forward OnPlayerDataLoaded(playerid);
+forward OnQueryDone(playerid);
+forward OnPasswordHash(playerid);
+forward OnRegisterDone(playerid);
+forward OnPlayerFound(playerid);
 
 hook OnPlayerRequestClass(playerid, classid) 
 {
@@ -28,7 +32,7 @@ hook OnPlayerRequestClass(playerid, classid)
     GetPlayerName(playerid, playerName, sizeof(playerName));
     
     mysql_format(database, query, sizeof(query), "SELECT name from `users` WHERE `name` = '%e' LIMIT 1", playerName);
-    mysql_tquery(database, query, "OnPlayerDataLoaded", "d", playerid);
+    mysql_tquery(database, query, "OnQueryDone", "d", playerid);
 }
 
 hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) 
@@ -52,14 +56,15 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
                 "Cancelar"
             );
         }
+
+        bcrypt_hash(playerid, "OnPasswordHash", inputtext, 12);
         return 1;
     }
-
 
     return 0;
 }
 
-public OnPlayerDataLoaded(playerid)
+public OnQueryDone(playerid)
 {
     if(cache_num_rows() == 0)
     {
@@ -85,5 +90,65 @@ public OnPlayerDataLoaded(playerid)
         "Cancelar"
     );
 
+    return 1;
+}
+
+public OnPasswordHash(playerid) 
+{
+    new playerName[MAX_PLAYER_NAME], hash[BCRYPT_HASH_LENGTH], query[512];
+    GetPlayerName(playerid, playerName, sizeof(playerName));
+    bcrypt_get_hash(hash);
+
+    mysql_format(
+        database, 
+        query, 
+        sizeof(query), 
+        "INSERT INTO `users` (`name`, `password`, `pos_x`, `pos_y`, `pos_z`) VALUES ('%e', '%e', %f, %f, %f)",
+        playerName,
+        hash,
+        1212.4067,
+        -1388.6460,
+        13.2738
+    );
+    
+    mysql_tquery(database, query, "OnRegisterDone", "d", playerid);
+    return 1;
+}
+
+public OnRegisterDone(playerid)
+{
+    new playerName[MAX_PLAYER_NAME], query[128];
+    GetPlayerName(playerid, playerName, sizeof(playerName));
+
+    mysql_format(database, query, sizeof(query), "SELECT * FROM `users` WHERE `name` = '%e' LIMIT 1", playerName);
+    mysql_tquery(database, query, "OnPlayerFound", "d", playerid);
+    return 1;
+}
+
+public OnPlayerFound(playerid)
+{
+    if(cache_num_rows() == 0)
+    {
+        Kick(playerid);
+        return 1;
+    }
+
+    cache_get_value_name_int(0, "id", playerData[playerid][pId]);
+    cache_get_value_name(0, "name", playerData[playerid][pName], MAX_PLAYER_NAME);
+    cache_get_value_name_int(0, "level", playerData[playerid][pLevel]);
+    cache_get_value_name_int(0, "money", playerData[playerid][pMoney]);
+    cache_get_value_name_float(0, "pos_x", playerData[playerid][pPosX]);
+    cache_get_value_name_float(0, "pos_y", playerData[playerid][pPosY]);
+    cache_get_value_name_float(0, "pos_z", playerData[playerid][pPosZ]);
+    cache_get_value_name_int(0, "p_interior", playerData[playerid][pInterior]);
+    playerData[playerid][pIsLoggedIn] = true;
+
+    SetPlayerScore(playerid, playerData[playerid][pLevel]);
+    GivePlayerMoney(playerid, playerData[playerid][pMoney]);
+    SetPlayerPos(playerid, playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ]);
+    SetPlayerInterior(playerid, playerData[playerid][pInterior]);
+    
+    SetSpawnInfo(playerid, 0, 0, playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ], 0.0);
+    SpawnPlayer(playerid);
     return 1;
 }
