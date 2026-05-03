@@ -8,24 +8,47 @@ enum
 
 enum PlayerDataEnum
 {
-    name[MAX_PLAYER_NAME],
-    password[16],
-    level,
+    pName[MAX_PLAYER_NAME],
+    pPassword[16],
+    pLevel,
 }
 
 new PlayerData[MAX_PLAYERS][PlayerDataEnum];
 
 hook OnPlayerRequestClass(playerid, classid) 
 {
-    ShowPlayerDialog(
-        playerid,
-        DIALOG_REGISTER,
-        DIALOG_STYLE_PASSWORD,
-        "Registro",
-        "Bem-vindo(a)!\n\nDigite uma senha abaixo para criar sua conta.",
-        "Registrar",
-        "Cancelar"
-    );
+    new playerName[MAX_PLAYER_NAME + 1];
+    GetPlayerName(playerid, playerName, sizeof(playerName));
+    
+    new DBResult:player_query = 
+        DB_ExecuteQuery(database, "SELECT name FROM users WHERE name = %s", playerName);
+
+    if(DB_GetRowCount(player_query) == 0) 
+    {
+        ShowPlayerDialog(
+            playerid,
+            DIALOG_REGISTER,
+            DIALOG_STYLE_PASSWORD,
+            "Registro",
+            "Bem-vindo(a)!\n\nDigite uma senha abaixo para criar sua conta.",
+            "Registrar",
+            "Cancelar"
+        );
+    }
+    else
+    {
+        ShowPlayerDialog(
+            playerid,
+            DIALOG_LOGIN,
+            DIALOG_STYLE_PASSWORD,
+            "Login",
+            "Bem-vindo(a) novamente!\n\nDigite sua senha abaixo.",
+            "Entrar",
+            "Cancelar"
+        );
+    }
+
+    DB_FreeResultSet(player_query);
 }
 
 hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]) 
