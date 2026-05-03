@@ -15,8 +15,7 @@ main()
 public OnGameModeInit()
 {
 	SetGameModeText("RPG - 2026");
-	AddPlayerClass(0, 2495.3547, -1688.2319, 13.6774, 351.1646);
-	AddStaticVehicle(522, 2493.7583, -1683.6482, 12.9099, 270.8069, -1, -1);
+	AddStaticVehicle(522, 823.4052,-1341.5691,13.5167,89.2287, -1, -1);
 	return 1;
 }
 
