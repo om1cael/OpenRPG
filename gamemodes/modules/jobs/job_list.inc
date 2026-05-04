@@ -1,0 +1,5 @@
+enum
+{
+    JOB_UNEMPLOYED,
+    JOB_DELIVERY,
+}

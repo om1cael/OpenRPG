@@ -9,6 +9,7 @@
 #include "modules/player/accounts/core"
 #include "modules/player/utils"
 
+#include "modules/jobs/job_list"
 #include "modules/jobs/delivery"
 #include "modules/jobs/work_bureau"
 

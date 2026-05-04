@@ -41,14 +41,6 @@ hook OnPlayerConnect(playerid)
     Create3DTextLabel("Entregador\nAperte Y para pegar seu veículo", -1, 1026.8573, -1342.4838, 13.7266, 15, 0);
 }
 
-@cmd() trabalhar(playerid, params[], help)
-{
-    playerData[playerid][pJob] = 1;
-    SendClientMessage(playerid, COLOR_SUCCESS, "[EMPREGO] Você agora é um entregador, vá até a marcação no mapa para pegar seu veículo.");
-    SetPlayerCheckpoint(playerid, 1026.8573, -1342.4838, 13.7266, 2);
-    return 1;
-}
-
 @cmd() entregar(playerid, params[], help)
 {
     if(playerData[playerid][pJob] != 1)
@@ -66,7 +58,7 @@ hook OnPlayerConnect(playerid)
     {
         return SendClientMessage(playerid, COLOR_WARNING, "[EMPREGO] Você precisa estar no restaurante.");
     }
-    
+
     if(GetPlayerVehicleID(playerid) != playerData[playerid][pWorkVehicle])
     {
         return SendClientMessage(playerid, COLOR_WARNING, "[EMPREGO] Vocẽ precisa estar no veículo da empresa.");
