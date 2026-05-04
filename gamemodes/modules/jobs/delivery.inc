@@ -124,7 +124,7 @@ hook OnPlayerEnterCheckpoint(playerid)
 
         SendClientMessage(playerid, COLOR_SUCCESS, "[ENTREGA] Entrega realizada com sucesso!");
         SendClientMessage(playerid, COLOR_SUCCESS, deliveryText);
-        GivePlayerMoney(playerid, payment);
+        GivePlayerMoneyEx(playerid, payment);
         
         deliveryMan[playerid][deliveries]++;
 
@@ -170,7 +170,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
                 return 1;
             }
 
-            GivePlayerMoney(playerid, -DELIVERY_JOB_BIKE_PRICE);
+            GivePlayerMoneyEx(playerid, -DELIVERY_JOB_BIKE_PRICE);
             playerData[playerid][pWorkVehicle] = CreateVehicle(462, 1026.8573, -1342.4838, 13.7266, 0.0, -1, -1, -1);
         }
     }

@@ -6,7 +6,8 @@
 #include "modules/dialogs"
 #include "modules/colors"
 
-#include "modules/accounts/core"
+#include "modules/player/accounts/core"
+#include "modules/player/utils"
 
 #include "modules/jobs/delivery"
 
