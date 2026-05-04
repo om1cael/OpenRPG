@@ -169,6 +169,9 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
             GivePlayerMoneyEx(playerid, -DELIVERY_JOB_BIKE_PRICE);
             playerData[playerid][pWorkVehicle] = CreateVehicle(462, 1026.8573, -1342.4838, 13.7266, 0.0, -1, -1, -1);
         }
+
+        SendClientMessage(playerid, COLOR_SUCCESS, "[EMPREGO] O veículo foi alugado.");
+        SendClientMessage(playerid, COLOR_SUCCESS, "[EMPREGO] Digite /entregar para iniciar as entregas.");
     }
     else if(dialogid == DIALOG_DELIVERY_JOB_RETURN_VEHICLE && response)
     {

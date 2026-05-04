@@ -178,7 +178,6 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
     {
         playerData[playerid][pJob] = workerDetail[playerid][wFutureJob];
         SendClientMessage(playerid, COLOR_SUCCESS, "[EMPREGO] O contrato foi assinado, bem-vindo(a)!");
-        SendClientMessage(playerid, COLOR_SUCCESS, "[EMPREGO] Se tiver qualquer dúvida, digite /prof");
 
         DestroyPlayerPickup(playerid, workPickup[playerid]);
         DeletePlayer3DTextLabel(playerid, workTextId[playerid]);
