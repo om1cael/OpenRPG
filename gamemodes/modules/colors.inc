@@ -1,2 +1,3 @@
 #define COLOR_WARNING 0xff4000AA
+#define COLOR_HEADSUP 0xffff00AA
 #define COLOR_SUCCESS 0xb3ff00AA

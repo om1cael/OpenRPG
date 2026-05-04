@@ -1,11 +1,5 @@
 #include <YSI_Coding/y_hooks>
 
-enum 
-{
-    DIALOG_REGISTER,
-    DIALOG_LOGIN
-}
-
 enum PlayerDataEnum
 {
     pId,
@@ -14,10 +8,12 @@ enum PlayerDataEnum
     pMoney,
     pSkin,
     pJob,
+    pWorkVehicle,
     Float:pPosX,
     Float:pPosY,
     Float:pPosZ,
     pInterior,
+    bool:pIsWorking,
     bool:pIsLoggedIn
 }
 
@@ -193,6 +189,9 @@ public OnPlayerFound(playerid)
     cache_get_value_name_float(0, "pos_y", playerData[playerid][pPosY]);
     cache_get_value_name_float(0, "pos_z", playerData[playerid][pPosZ]);
     cache_get_value_name_int(0, "p_interior", playerData[playerid][pInterior]);
+
+    playerData[playerid][pIsWorking] = false;
+    playerData[playerid][pWorkVehicle] = 0;
     playerData[playerid][pIsLoggedIn] = true;
 
     SetPlayerScore(playerid, playerData[playerid][pLevel]);

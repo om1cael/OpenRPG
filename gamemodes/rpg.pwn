@@ -3,9 +3,12 @@
 #include <samp_bcrypt>
 
 #include "modules/database"
+#include "modules/dialogs"
 #include "modules/colors"
 
 #include "modules/accounts/core"
+
+#include "modules/jobs/delivery"
 
 main()
 {
