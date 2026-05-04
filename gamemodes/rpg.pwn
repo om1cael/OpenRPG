@@ -13,6 +13,8 @@
 
 #include "modules/jobs/delivery"
 
+#include "modules/admin/commands/spawn_vehicle"
+
 main()
 {
 	printf("Hello World!");
