@@ -51,22 +51,25 @@ hook OnPlayerConnect(playerid)
 
 @cmd() entregar(playerid, params[], help)
 {
+
     if(playerData[playerid][pJob] != 1)
     {
-        SendClientMessage(playerid, COLOR_WARNING, "[ORPG] Você não pode executar este comando.");
-        return 1;
+        return SendClientMessage(playerid, COLOR_WARNING, "[ORPG] Você não pode executar este comando.");
     }
 
+    if(!IsPlayerInRangeOfPoint(playerid, 10.0, 1026.8573, -1342.4838, 13.7266))
+    {
+        return SendClientMessage(playerid, COLOR_WARNING, "[EMPREGO] Você precisa estar no restaurante.");
+    }
+    
     if(playerData[playerid][pJob] == 1 && playerData[playerid][pIsWorking])
     {
-        SendClientMessage(playerid, COLOR_WARNING, "[EMPREGO] Você já está em uma entrega.");
-        return 1;
+        return SendClientMessage(playerid, COLOR_WARNING, "[EMPREGO] Você já está em uma entrega.");
     }
 
     if(GetPlayerVehicleID(playerid) != playerData[playerid][pWorkVehicle])
     {
-        SendClientMessage(playerid, COLOR_WARNING, "[EMPREGO] Vocẽ precisa estar no veículo da empresa.");
-        return 1;
+        return SendClientMessage(playerid, COLOR_WARNING, "[EMPREGO] Vocẽ precisa estar no veículo da empresa.");
     }
 
     SendClientMessage(playerid, COLOR_SUCCESS, "[ENTREGA] Você iniciou os serviços de entrega. Faça 10 entregas para concluir.");
