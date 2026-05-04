@@ -180,7 +180,6 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
         SendClientMessage(playerid, COLOR_SUCCESS, "[EMPREGO] Seu veículo foi devolvido e seu trabalho foi cancelado.");
     }
 
-
     return 1;
 }
 

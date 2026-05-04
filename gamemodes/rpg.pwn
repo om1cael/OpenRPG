@@ -6,6 +6,8 @@
 #include "modules/dialogs"
 #include "modules/colors"
 
+#include "modules/buildings"
+
 #include "modules/player/accounts/core"
 #include "modules/player/utils"
 
