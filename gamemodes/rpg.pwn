@@ -6,12 +6,11 @@
 #include "modules/dialogs"
 #include "modules/colors"
 
-#include "modules/buildings"
-
 #include "modules/player/accounts/core"
 #include "modules/player/utils"
 
 #include "modules/jobs/delivery"
+#include "modules/jobs/work_bureau"
 
 #include "modules/admin/commands/spawn_vehicle"
 

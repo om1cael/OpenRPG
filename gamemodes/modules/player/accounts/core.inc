@@ -199,7 +199,7 @@ public OnPlayerFound(playerid)
     SetPlayerPos(playerid, playerData[playerid][pPosX], playerData[playerid][pPosY], playerData[playerid][pPosZ]);
     SetPlayerInterior(playerid, playerData[playerid][pInterior]);
     
-    SetSpawnInfo(playerid, NO_TEAM, playerData[playerid][pSkin], 1026.8573, -1342.4838, 13.7266, 90.0);
+    SetSpawnInfo(playerid, NO_TEAM, playerData[playerid][pSkin], 1219.1830,-1813.1396,16.5938, 90.0);
     SpawnPlayer(playerid);
     return 1;
 }
