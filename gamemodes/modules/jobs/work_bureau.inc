@@ -25,6 +25,24 @@ hook OnGameModeInit()
         2
     );
 
+    CreateInteractablePickupWithLabel(
+        "Secretaria do Trabalho\nAperte Y para ver empregos",
+        1210,
+        0,
+        1490.9664,
+        1305.3859,
+        1093.2964,
+        2
+    );
+
+    CreateActor(
+        141,
+        1488.8853,
+        1305.3525,
+        1093.2964,
+        270.0
+    );
+
     return 1;
 }
 
