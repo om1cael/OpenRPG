@@ -2,4 +2,5 @@ enum
 {
     JOB_UNEMPLOYED,
     JOB_DELIVERY,
+    JOB_PARCEL_CARRIER,
 }

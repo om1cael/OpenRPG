@@ -11,6 +11,7 @@
 
 #include "modules/jobs/job_list"
 #include "modules/jobs/delivery"
+#include "modules/jobs/parcel_carrier"
 #include "modules/jobs/work_bureau"
 
 #include "modules/admin/commands/spawn_vehicle"

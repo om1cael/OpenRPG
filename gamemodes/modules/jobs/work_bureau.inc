@@ -116,7 +116,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
                 DIALOG_WORK_BUREAU_LOGISTICS,
                 DIALOG_STYLE_TABLIST_HEADERS,
                 "Empregos de Logística",
-                "Emprego\tNível Mínimo\nEntregador\t0",
+                "Emprego\tNível Mínimo\nEntregador\t0\nEntregador de Encomendas\t1",
                 "Escolher",
                 "Cancelar"
             );
@@ -157,6 +157,37 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
             workerDetail[playerid][jobY] = -1338.0040;
             workerDetail[playerid][jobZ] = 13.7266;
             workerDetail[playerid][wFutureJob] = JOB_DELIVERY;
+            return 1;
+        }
+
+        if(listitem == 1)
+        {
+            if(playerData[playerid][pJob] == JOB_PARCEL_CARRIER) 
+            {
+                SendClientMessage(playerid, COLOR_WARNING, "[SECRETARIA] Você já está com contrato ativo neste emprego.");
+                return 1;
+            }
+
+            if(workerDetail[playerid][wFutureJob] == JOB_PARCEL_CARRIER) 
+            {
+                SendClientMessage(playerid, COLOR_WARNING, "[SECRETARIA] Você já foi encaminhado para este emprego.");
+                return 1;
+            }
+
+            workerDetail[playerid][wIsGoingForNewJob] = true;
+
+            SendClientMessage(playerid, COLOR_HEADSUP, "[EMPREGO] Você escolheu a profissão de entregador de encomendas.");
+            SendClientMessage(playerid, COLOR_HEADSUP, "[EMPREGO] Vá até o checkpoint para assinar o contrato.");
+
+            SetPlayerCheckpoint(playerid, 2193.1897,-2238.1968,13.5237, 2);
+
+            workPickup[playerid] = CreatePlayerPickup(playerid, 1210, 1, 2193.1897,-2238.1968,13.5237, 0);
+            workTextId[playerid] = CreatePlayer3DTextLabel(playerid, "Entregador de Encomendas\nDigite /contrato para assinar o contrato", -1, 1031.8572,-1338.0040,13.7266, 15);
+            
+            workerDetail[playerid][jobX] = 2193.1897;
+            workerDetail[playerid][jobY] = -2238.1968;
+            workerDetail[playerid][jobZ] = 13.5237;
+            workerDetail[playerid][wFutureJob] = JOB_PARCEL_CARRIER;
             return 1;
         }
 

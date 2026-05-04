@@ -110,6 +110,8 @@ hook OnPlayerKeyStateChange(playerid, KEY:newkeys, KEY:oldkeys)
 
 hook OnPlayerEnterCheckpoint(playerid) 
 {
+    if(playerData[playerid][pJob] != JOB_DELIVERY) return 1;
+
     if(playerData[playerid][pIsWorking] && GetPlayerVehicleID(playerid) == playerData[playerid][pWorkVehicle])
     {
         PlayerPlaySound(playerid, 1058, 0.0, 0.0, 0.0);
