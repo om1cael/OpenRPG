@@ -117,6 +117,7 @@ hook OnPlayerEnterCheckpoint(playerid)
 {
     if(playerData[playerid][pIsWorking] && GetPlayerVehicleID(playerid) == playerData[playerid][pWorkVehicle])
     {
+        PlayerPlaySound(playerid, 1058, 0.0, 0.0, 0.0);
         new payment = BASE_DELIVERY_TAX + floatround(GetPlayerDistanceFromPoint(playerid, 1026.8573, -1342.4838, 13.7266) * PRICE_PER_METER, floatround_round);
         new deliveryText[128];
 
